@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="minimalTVCtxMenu/App.axaml" value="minimalTVCtxMenu/minimalTVCtxMenu.csproj" />
+        <entry key="minimalTVCtxMenu/Views/MainWindow.axaml" value="minimalTVCtxMenu/minimalTVCtxMenu.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
