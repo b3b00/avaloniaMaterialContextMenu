@@ -4,13 +4,18 @@
              xmlns:local="using:minimalTVCtxMenu"
              xmlns:materialThemes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
              xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
-             RequestedThemeVariant="Default">
+             RequestedThemeVariant="Light">
              <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
     <Application.DataTemplates>
         <local:ViewLocator/>
     </Application.DataTemplates>
-  
+             <!-- fluent theme is ok --> 
+             <!-- <Application.Styles> -->
+             <!--     <FluentTheme></FluentTheme> -->
+             <!-- </Application.Styles> -->
+             
+             <!-- material theme is ko --> 
              <Application.Styles>
                  <materialThemes:MaterialTheme BaseTheme="Light" PrimaryColor="Purple" SecondaryColor="Lime" />
                  <materialIcons:MaterialIconStyles />
